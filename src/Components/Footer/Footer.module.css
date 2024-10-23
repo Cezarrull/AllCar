@@ -1,0 +1,16 @@
+.footerBody {
+    padding: 2px;
+    height: 100px;
+    background: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBody h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}

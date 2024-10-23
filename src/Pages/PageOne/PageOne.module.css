@@ -1,0 +1,97 @@
+.pageOneBody {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 120px;
+    height: 100%;
+    background: var(--bgOne);
+}
+
+.pageOneBody h1 {
+    padding: 40px 0;
+    width: 100%;
+    background: var(--bgTwo);
+    text-align: center;
+    color: var(--white);
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.pageOneBody p {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5;
+    font-weight: 500;
+}
+
+.content {
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.content a {
+    text-decoration: none;
+    cursor: default;
+}
+
+.content h2 {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.content img {
+    height: 38vh;
+    width: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content p {
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    color: var(--gray);
+    margin-bottom: 10px;
+    cursor: text;
+}
+
+.content button {
+    border: none;
+    border-radius: 24px;
+    font-size: 0.875rem;
+    color: var(--white);
+    background: var(--grayThree);
+    padding: 8px 15px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: var(--grayTwo);
+}
+
+/*///////////////////////////////////////////// 700+ vision ///////////////////////////////////////*/
+
+@media (min-width: 700px) {
+    .content {
+        padding-left: 70px;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+        max-width: 56vw;
+    }
+    
+    .content img {
+        height: 70vh;
+        width: auto;
+        max-width: 100%;
+    }
+    
+    .textAndImage p {
+        width: 60%;
+    }
+}

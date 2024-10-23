@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --whiteTwo: rgb(236, 242, 247);
+
+    --black: #000000;
+
+    --blue: rgb(0, 0, 43);
+
+    --gray: rgb(202, 202, 202);
+    --grayTwo: rgb(146, 145, 145);
+    --grayThree: rgb(78, 78, 78);
+    --grayFour: #333333;
+
+    --bgOne: rgb(39, 39, 39);
+    --bgTwo: rgb(24, 24, 24);
+    --bgThree: #000000be;
+}

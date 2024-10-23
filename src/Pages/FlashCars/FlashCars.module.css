@@ -1,0 +1,70 @@
+.flashBody {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    padding-top: 120px;
+    background: var(--bgOne);
+}
+
+.flashContent {
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.flashBody h1 {
+    padding: 40px 10px;
+    width: 100%;
+    text-align: center;
+    background: var(--bgTwo);
+    color: var(--white);
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.flashBody p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--gray);
+    cursor: text;
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.flashContent h2 {
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.flashContent h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.60rem;
+    color: var(--grayTwo);
+}
+
+.flashContent p {
+    font-size: 1.5rem;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    color: var(--gray);
+    cursor: text;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.flashContent img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+@media (min-width: 700px) {
+    .flashContent {
+        padding-left: 70px;
+        width: 70%;
+    }
+
+    .flashContent p {
+        margin-bottom: 20px;
+    }
+}

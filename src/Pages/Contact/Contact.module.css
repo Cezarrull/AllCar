@@ -1,0 +1,44 @@
+.contactBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: var(--bgOne);
+}
+
+.contactContent {
+    text-align: center;
+    padding: 40px 15px;
+    width: 100%;
+    background: var(--bgTwo);
+}
+
+.contactBody h1 {
+    color: var(--white);
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.contactBody p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--gray);
+    cursor: text;
+    text-align: center;
+    margin: 25px 10px;
+}
+
+.contactBody a {
+    background: var(--bgOne);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--gray);
+    cursor: text;
+}
+
+.contactBody a:hover {
+    color: var(--whiteTwo);
+}
