@@ -15,7 +15,7 @@ export function Bank() {
             </div>
             
             <div className={style.qrcodeBank}>
-                <img src="../../../Assets/About/Pix.jpg" alt="QrCode" />
+                <img src="/src/Assets/About/Pix.jpg" alt="QrCode" />
             </div>
 
             <div className={style.textBank}>

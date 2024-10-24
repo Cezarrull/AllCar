@@ -38,7 +38,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de bateria</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/bateria.png" alt="Luz de bateria"/>
+                        <img src="/src/Assets/LuzesImage/bateria.png" alt="Luz de bateria"/>
                         <p>
                             A bateria do carro ou moto é como se fosse o coração do sistema elétrico. Por isso, a luz vermelha com o símbolo de uma bateria indica problemas nesse sistema automotivo.  
                         </p>
@@ -50,7 +50,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de freio de estacionamento</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/freioDeMão.png" alt="Luz de freio de estacionamento"/>
+                        <img src="/src/Assets/LuzesImage/freioDeMão.png" alt="Luz de freio de estacionamento"/>
                         <p>
                             Quem nunca tentou sair com o carro e não conseguiu, porque o freio de mão estava puxado, que atire a primeira pedra. 
                         </p>
@@ -62,7 +62,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de temperatura de motor</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/temperaturaDoMotor.png" alt="Luz de temperatura de motor"/>
+                        <img src="/src/Assets/LuzesImage/temperaturaDoMotor.png" alt="Luz de temperatura de motor"/>
                         <p>
                             Atenção, Motorista! Pois essa luz jamais deve ser ignorada!  
                         </p>
@@ -74,7 +74,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de pisca-alerta</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/4-150x150.png" alt="Luz de pisca-alerta"/>
+                        <img src="/src/Assets/LuzesImage/4-150x150.png" alt="Luz de pisca-alerta"/>
                         <p>
                             A luz de pisca-alerta é outro aviso que não obrigatoriamente está no painel do veículo. Essa indicação pode vir no botão de liga/desliga do dispositivo em alguns automóveis.   
                         </p>
@@ -84,7 +84,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de óleo</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/5-150x150.png" alt="Luz de óleo"/>
+                        <img src="/src/Assets/LuzesImage/5-150x150.png" alt="Luz de óleo"/>
                         <p>
                             Olhou aquela luz igual a lâmpada do Aladdin no painel do carro e ficou sem saber o que é? Pois bem, essa é justamente a luz de óleo.  
                         </p>
@@ -96,7 +96,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de airbag</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/airbag.png" alt="Luz de airbag"/>
+                        <img src="/src/Assets/LuzesImage/airbag.png" alt="Luz de airbag"/>
                         <p>
                             A luz de airbag, que parece um bonequinho com balão, indica o funcionamento ou não desse dispositivo de segurança. Ou seja, se o veículo sofrer uma colisão e essa luz estiver acesa, o airbag não vai operar ou apresentará falhas.   
                         </p>
@@ -114,7 +114,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de injeção eletrônica</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/injeção.png" alt="Luz de injeção eletrônica"/>
+                        <img src="/src/Assets/LuzesImage/injeção.png" alt="Luz de injeção eletrônica"/>
                         <p>
                             A luz com um símbolo de motor de carro acende naturalmente no momento da ignição ou partida, mas deve se apagar logo em seguida. 
                         </p>
@@ -124,7 +124,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de pré-aquecimento de velas</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/aquecimentoVelas.png" alt="Luz de pré-aquecimento de velas"/>
+                        <img src="/src/Assets/LuzesImage/aquecimentoVelas.png" alt="Luz de pré-aquecimento de velas"/>
                         <p>
                             Essenciais para o funcionamento do motor, as velas do carro possuem canal direto para falar com o motorista: a luz com o símbolo de mola no painel.
                         </p>
@@ -138,7 +138,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de controle de tração ou ESC</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/ESC.png" alt="Luz de controle de tração ou ESC"/>
+                        <img src="/src/Assets/LuzesImage/ESC.png" alt="Luz de controle de tração ou ESC"/>
                         <p>
                             A luz do carrinho derrapando representa o controle eletrônico de estabilidade (ESC) e fica acesa enquanto o sistema está ativo no veículo.  
                         </p>
@@ -150,7 +150,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de baixa pressão dos pneus</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/pneus.png" alt="Luz de baixa pressão dos pneus"/>
+                        <img src="/src/Assets/LuzesImage/pneus.png" alt="Luz de baixa pressão dos pneus"/>
                         <p>
                             Nos veículos que possuem monitoramento da pressão dos pneus (TPMS), existe uma luz com o desenho de uma ferradura com um ponto de exclamação no interior. Essa é a luz do painel que indica baixa pressão dos pneus.
                         </p>
@@ -160,7 +160,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de desembaçador de para-brisas</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/desembaçadorParaBrisa.png" alt="Luz de desembaçador de para-brisas"/>
+                        <img src="/src/Assets/LuzesImage/desembaçadorParaBrisa.png" alt="Luz de desembaçador de para-brisas"/>
                         <p>
                             Representada por um quadrado ou uma janelinha com setas, a luz de desembaçador de para-brisas nem sempre fica no painel do veículo, sendo possível encontrá-la sobre o botão de acionamento do dispositivo. 
                         </p>
@@ -170,7 +170,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de freio ABS</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/ABS.png" alt="Luz de freio ABS"/>
+                        <img src="/src/Assets/LuzesImage/ABS.png" alt="Luz de freio ABS"/>
                         <p>
                             Geralmente identificada por um círculo com as letras ABS dentro dele, essa luz no painel indica que o sistema de freio não está funcionando por algum motivo.  
                         </p>
@@ -180,7 +180,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de direção elétrica</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/EPS.png" alt="Luz de direção elétrica"/>
+                        <img src="/src/Assets/LuzesImage/EPS.png" alt="Luz de direção elétrica"/>
                         <p>
                             A luz do “volantinho” ou com a sigla EPS no painel do carro é, na verdade, de direção elétrica e indica defeito nesse componente, como desregulamento do volante ou danos à caixa de direção.
                         </p>
@@ -198,7 +198,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de transmissão automática</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/trasmissãoAutomatica.png" alt="Luz de transmissão automática"/>
+                        <img src="/src/Assets/LuzesImage/trasmissãoAutomatica.png" alt="Luz de transmissão automática"/>
                         <p>
                             Indicada por uma engrenagem laranja com um ponto de exclamação ao lado ou no seu interior, a luz de câmbio automático denuncia defeito ou baixo nível de óleo da transmissão (quando o veículo exige a troca de fluído). 
                         </p>
@@ -208,7 +208,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de pastilha de freio</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/pastilhaDeFreio.png" alt="Luz de pastilha de freio"/>
+                        <img src="/src/Assets/LuzesImage/pastilhaDeFreio.png" alt="Luz de pastilha de freio"/>
                         <p>
                             Nem todos os veículos têm essa luz no painel. Além disso, ela também pode ser amarela, dependendo do modelo do carro. 
                         </p>
@@ -220,7 +220,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz do imobilizador</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/imobilizador.png" alt="Luz do imobilizador"/>
+                        <img src="/src/Assets/LuzesImage/imobilizador.png" alt="Luz do imobilizador"/>
                         <p>
                             Representada pelo desenho de um carro com uma chave ou cadeado dentro (ou somente uma chave no painel), a luz do imobilizador costuma variar de cor de acordo com o modelo de carro.  
                         </p>
@@ -238,7 +238,7 @@ export function Luzes() {
                     </p>
                     <h3>Luz de pedal de freio</h3>
                     <div className={style.imgText}>
-                        <img src="../../../Assets/LuzesImage/pedalDeFREIO.png" alt="Luz de pedal de freio"/>
+                        <img src="/src/Assets/LuzesImage/pedalDeFREIO.png" alt="Luz de pedal de freio"/>
                         <p>
                             Existente em carros de câmbio automático e representada por um pé dentro de um círculo em verde, essa luz indica para o motorista que é preciso apertar o pedal de freio durante a condução.
                         </p>
@@ -252,7 +252,7 @@ export function Luzes() {
                         Por isso, é muito importante procurar ajuda especializada o quanto antes, uma vez que ignorar o problema pode comprometer de vez o funcionamento do carro e encarecer a solução.
                     </p>
                     <div className={style.imgLight}>
-                        <img src="../../../Assets/LuzesImage/luzesPainel.png" alt="Luzes do painel" />
+                        <img src="/src/Assets/LuzesImage/luzesPainel.png" alt="Luzes do painel" />
                     </div>
                     <h2>Perguntas frequentes sobre luzes do painel</h2>
                     <h4>A luz do painel acende, mas não dá partida, o que pode ser?</h4>

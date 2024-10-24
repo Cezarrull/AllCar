@@ -19,7 +19,7 @@ export function Motor() {
                         <br /><br />
                         Ambos podem ser considerados motores de 4 tempos. Eles precisam dos mesmos elementos para funcionar: do ar, do combustível e de um gatilho para a explosão. O primeiro, de Otto, utiliza-se de combustíveis como gasolina e etanol e seu gatilho é promovido pela “vela”, uma peça importante responsável por soltar uma faísca e gerar explosão.
                     </p>
-                    <img src="../../../Assets/motor.jpg" alt="Motor"/>
+                    <img src="/src/Assets/motor.jpg" alt="Motor"/>
                     <p>
                         O segundo se utiliza de diesel, e sua explosão é gerada não por uma outra peça como a vela, mas pela própria compressão dos gases dentro dos cilindros, somada à alta temperatura dos motores.
                         <br /><br />
@@ -43,7 +43,7 @@ export function Motor() {
                         <br /><br />
                         A 1ª é a admissão, em que a mistura de ar e combustível é inserida no cilindro pelas válvulas de admissão; a 2ª a compressão, quando o pistão sobe e comprime a mistura (dentro do cilindro); a 3ª a explosão, com o gatilho da vela (nos motores de ciclo de Otto) ou da própria pressão e temperatura (nos de ciclo Diesel); e por fim a 4ª a expansão, com o pistão descendo e retornando à sua posição original.
                     </p>
-                    <img src="../../../Assets/Motor/motor4tempos.jpg" alt="Motor"/>
+                    <img src="/src/Assets/Motor/motor4tempos.jpg" alt="Motor"/>
                     <p>
                         Todas essas fases combinadas geram movimento no final, que vai sendo transferido para as mais diferentes peças do veículo: desde o câmbio até as rodas, possibilitando que o carro também se movimente. Essa queima de combustível gera gases muitas vezes poluentes (como CO2), que saem do veículo pelos escapamentos.
                         <br /><br />
@@ -55,7 +55,7 @@ export function Motor() {
                         <br /><br />
                         O conjunto móvel é formado pelas bielas, êmbolos, anéis e árvore de manivelas.. Já os cilindros são compostos por, no mínimo, duas válvulas: a de Admissão, que permite a entrada da mistura de ar/combustível, e a de Escapamento, que permite a passagem dos gases queimados para a descarga.
                     </p>
-                    <img src="../../../Assets/Motor/motorTwo.jpg" alt="Motor"/>
+                    <img src="/src/Assets/Motor/motorTwo.jpg" alt="Motor"/>
                     <p>
                     As peças básicas para o funcionamento do motor são o pistão, a biela, os cilindros, o virabrequim e as válvulas. Itens como bombas de combustível e de água, radiador e comando de válvulas estão presentes em motores de ciclo Otto com refrigeração a líquido.
                     </p>

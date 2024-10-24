@@ -67,23 +67,23 @@ export function History() {
                         </p>
                     </div>
                     <div className={style.imgDiv}>
-                        <img src="../../../Assets/HistoryCars/1885Benz.jpg" alt="1885Benz"/>
+                        <img src="/src/Assets/HistoryCars/1885Benz.jpg" alt="1885Benz"/>
                         <p>Benz Patent-Motorwagen, considerado o primeiro carro do mundo.</p>
-                        <img src="../../../Assets/HistoryCars/265px-CugnotSteamTrolly.jpg" alt="Projeto do Fardier à vapeur"/>
+                        <img src="/src/Assets/HistoryCars/265px-CugnotSteamTrolly.jpg" alt="Projeto do Fardier à vapeur"/>
                         <p>
                             Projeto do Fardier à vapeur, carro a vapor de Joseph Cugnot (Jonathan Holguinisburg, 1769).
                         </p>
-                        <img src="../../../Assets/HistoryCars/Lenoir_Hippomobile.jpg" alt="veículo com motor de combustão interna a hidrogênio."/>
+                        <img src="/src/Assets/HistoryCars/Lenoir_Hippomobile.jpg" alt="veículo com motor de combustão interna a hidrogênio."/>
                         <p>
                             Hippomobile (1860), de Étienne Lenoir, veículo com motor de combustão interna a hidrogênio.
                         </p>
-                        <img src="../../../Assets/HistoryCars/Jamais_contente.jpg" alt="La Jamais Contente"/>
+                        <img src="/src/Assets/HistoryCars/Jamais_contente.jpg" alt="La Jamais Contente"/>
                         <p>
                             Camille Jenatzy (1868-1913) a bordo do La Jamais Contente, primeiro veículo terrestre a a ultrapassar a velocidade de 100 km/h.
                         </p>
-                        <img src="../../../Assets/HistoryCars/Lohner_Porsche_Retro_Classics_2020_IMG_0053.jpg" alt="Réplica do Lohner-Porsche"/>
+                        <img src="/src/Assets/HistoryCars/Lohner_Porsche_Retro_Classics_2020_IMG_0053.jpg" alt="Réplica do Lohner-Porsche"/>
                         <p>Réplica do Lohner-Porsche: primeiro 4x4, com freios na quatro rodas e híbrido.</p>
-                        <img src="../../../Assets/HistoryCars/Ford_Model_T_and_VW_type_11_Luxus,_Technisches_Museum_Wien,_Juni_2009.jpg" alt="Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás)"/>
+                        <img src="/src/Assets/HistoryCars/Ford_Model_T_and_VW_type_11_Luxus,_Technisches_Museum_Wien,_Juni_2009.jpg" alt="Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás)"/>
                         <p>
                             Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás) dois modelos de carros dentre os mais produzidos em massa na história.
                         </p>

@@ -14,7 +14,7 @@ export function PageOne() {
                     <Link to="/HistoriaDoAutomovel">
                         <h2>História do automóvel</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/carro1.jpg" alt="Foto de um Benz Patent-Motorwagen"/>
+                            <img src="/src/Assets/carro1.jpg" alt="Foto de um Benz Patent-Motorwagen"/>
                             <p>
                                 A história do automóvel tem início por volta de 1769, com a criação do motor a 
                                 vapor de automóveis capazes de transportar humanos. Em 1807, os primeiros 
@@ -29,7 +29,7 @@ export function PageOne() {
                     <Link to="/TiposDeMotores">
                         <h2>Quais são os tipos de motores de um carro?</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/motor.jpg" alt="Foto de um motor"/>
+                            <img src="/src/Assets/motor.jpg" alt="Foto de um motor"/>
                             <p>
                             Ao longo do tempo, os carros já foram equipados com vários tipos diferentes de motor. 
                             Você sabia, por exemplo, que eles já receberam motores a jato, como nos aviões? Acontece que, 
@@ -44,7 +44,7 @@ export function PageOne() {
                     <Link to="/CarrosMaisVendidos">
                         <h2>5 carros mais vendidos no mundo em toda a história</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/Toyota-Corolla-2001-EUA-03.jpg" alt="Foto de um Corolla"/>
+                            <img src="/src/Assets/Toyota-Corolla-2001-EUA-03.jpg" alt="Foto de um Corolla"/>
                             <p>
                                 O carro mais comercializado no mundo ao longos dos anos é o Toyota Corolla. Ao todo 
                                 foram vendidas mais de 40 milhões de unidades. Clique e confira a lista completa de 
@@ -57,7 +57,7 @@ export function PageOne() {
                     <Link to="/TiposDeCarroceria">
                         <h2>Tipos de carroceria</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/carroceria.jpg" alt="Foto de Tipos de carroceria"/>
+                            <img src="/src/Assets/carroceria.jpg" alt="Foto de Tipos de carroceria"/>
                             <p>
                                 A indústria automotiva oferece aos seus consumidores uma variedade de carros para escolher, 
                                 cada um com diferentes características para se adequar ao estilo de vida e necessidades de 
@@ -72,7 +72,7 @@ export function PageOne() {
                     <Link to="/LuzesDoPaniel">
                         <h2>luzes do painel</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/luzes-do-painel.jpg" alt="Foto de um painel de carro"/>
+                            <img src="/src/Assets/luzes-do-painel.jpg" alt="Foto de um painel de carro"/>
                             <p>
                                 Assim como os barulhos, os símbolos luminosos no painel do veículo são o principal meio 
                                 de comunicação entre o automóvel e quem o conduz. Pois é, seu carro não é o Relâmpago 
@@ -85,7 +85,7 @@ export function PageOne() {
                     <Link to="/Pneus">
                         <h2>Tipos de pneus: conheça cada um deles</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/pneu.jpg" alt="Foto de pneus"/>
+                            <img src="/src/Assets/pneu.jpg" alt="Foto de pneus"/>
                             <p>
                                 Os pneus são partes fundamentais de todo e qualquer veículo, pois eles oferecem 
                                 estabilidade, segurança, conforto e economia. No entanto, ainda que todos possuam esses 
@@ -99,7 +99,7 @@ export function PageOne() {
                     <Link to="/OsCarrosMaisRapidosDaHistoria">
                         <h2>Voando baixo: os carros mais rápidos ao longo da História</h2>
                         <div className={style.textAndImage}>
-                            <img src="../../../Assets/chiron.jpg" alt="Foto da Bugatti Chiron"/>
+                            <img src="/src/Assets/chiron.jpg" alt="Foto da Bugatti Chiron"/>
                             <p>
                                 A velocidade é algo que contagia e apaixona uma multidão de pessoas ao redor do 
                                 mundo. Aqueles que levam isso mais a sério se tornam pilotos de corridas e 
