@@ -28,7 +28,7 @@
     color: var(--gray);
     cursor: text;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .aboutContent h2 {
@@ -39,51 +39,8 @@
     text-align: center;
 }
 
-.bank {
-    padding: 20px;
-    text-align: center;
-    background: var(--bgTwo);
-}
-
-.bank h2 {
-    margin: 20px 0;
-    font-weight: 600;
-    font-size: 2rem;
-    color: var(--white);
-    text-align: center;
-}
-
-.bank p {
-    font-size: 1.5rem;
-    margin: 5px 0 0 0;
-    font-weight: 400;
-    color: var(--gray);
-    cursor: text;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.bank button {
-    border: none;
-    border-radius: 24px;
-    font-size: 1rem;
-    color: var(--white);
-    background: var(--grayThree);
-    padding: 10px 17px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.bank button:hover {
-    background: var(--grayTwo);
-}
-
 @media (min-width: 700px) {
     .aboutContent {
-        padding: 50px 20%;
-    }
-
-    .bank {
-        padding: 20px 15%;
+        padding: 30px 20%;
     }
 }

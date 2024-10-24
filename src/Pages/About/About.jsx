@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Footer } from "../../Components/Footer/Footer";
 import { Header } from "../../Components/Header/Hedaer";
 import style from './About.module.css';
@@ -21,17 +20,6 @@ export function About() {
                     <br /><br />
                     Acompanhe-nos nessa trajetória e descubra o mundo automotivo com nós!
                 </p>
-            </div>
-            <div className={style.bank}>
-                <h2>Você pode fazer a difereça!</h2>
-                <p>
-                    Se gostou do nosso conteúdo, considere fazer uma doação com uma quantia que seja 
-                    significativa para você, sua contribuição nos ajudará a melhorar e manter nosso trabalho de
-                    qualidade.
-                </p>
-                <Link to="/AjudeaAllCar">
-                    <button>Saiba mais</button>
-                </Link>
             </div>
         </div>
         <Footer />

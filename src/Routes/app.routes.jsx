@@ -9,7 +9,6 @@ import { Luzes } from '../Pages/Luzes/Luzes';
 import { Pneu } from '../Pages/Pneus/Pneu';
 import { FlashCars } from '../Pages/FlashCars/FlashCars';
 import { About } from '../Pages/About/About';
-import { Bank } from '../Pages/Bank/Bank';
 import { Contact } from '../Pages/Contact/Contact';
 
 export function AppRoutes() {
@@ -24,7 +23,6 @@ export function AppRoutes() {
             <Route path='/HistoriaDoAutomovel' element={<History />} />
             <Route path='/OsCarrosMaisRapidosDaHistoria' element={<FlashCars />} />
             <Route path='/sobre' element={<About />} />
-            <Route path='/AjudeaAllCar' element={<Bank />} />
             <Route path='/Contato' element={<Contact />} />
         </Routes>
     )
