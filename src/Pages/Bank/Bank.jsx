@@ -1,7 +1,7 @@
 import { Footer } from "../../Components/Footer/Footer";
 import { Header } from "../../Components/Header/Hedaer";
 import style from './Bank.module.css';
-import Image1 from "/src/Assets/About/Pix.jpg"
+import Image1 from "/src/Assets/About/Pix.jpg";
 
 export function Bank() {
     return(
