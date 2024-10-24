@@ -2,6 +2,15 @@ import style from './Histor.module.css';
 import { Header } from '../../Components/Header/Hedaer'
 import { Footer } from '../../Components/Footer/Footer';
 
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+import Image1 from "/src/Assets/HistoryCars/1885Benz.jpg";
+import Image2 from "/src/Assets/HistoryCars/265px-CugnotSteamTrolly.jpg";
+import Image3 from "/src/Assets/HistoryCars/Lenoir_Hippomobile.jpg";
+import Image4 from "/src/Assets/HistoryCars/Jamais_contente.jpg";
+import Image5 from "/src/Assets/HistoryCars/Lohner_Porsche_Retro_Classics_2020_IMG_0053.jpg";
+import Image6 from "/src/Assets/HistoryCars/Ford_Model_T_and_VW_type_11_Luxus,_Technisches_Museum_Wien,_Juni_2009.jpg";
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
 export function History() {
     return(
         <>
@@ -67,23 +76,23 @@ export function History() {
                         </p>
                     </div>
                     <div className={style.imgDiv}>
-                        <img src="/src/Assets/HistoryCars/1885Benz.jpg" alt="1885Benz"/>
+                        <img src={Image1} alt="1885Benz"/>
                         <p>Benz Patent-Motorwagen, considerado o primeiro carro do mundo.</p>
-                        <img src="/src/Assets/HistoryCars/265px-CugnotSteamTrolly.jpg" alt="Projeto do Fardier à vapeur"/>
+                        <img src={Image2} alt="Projeto do Fardier à vapeur"/>
                         <p>
                             Projeto do Fardier à vapeur, carro a vapor de Joseph Cugnot (Jonathan Holguinisburg, 1769).
                         </p>
-                        <img src="/src/Assets/HistoryCars/Lenoir_Hippomobile.jpg" alt="veículo com motor de combustão interna a hidrogênio."/>
+                        <img src={Image3} alt="veículo com motor de combustão interna a hidrogênio."/>
                         <p>
                             Hippomobile (1860), de Étienne Lenoir, veículo com motor de combustão interna a hidrogênio.
                         </p>
-                        <img src="/src/Assets/HistoryCars/Jamais_contente.jpg" alt="La Jamais Contente"/>
+                        <img src={Image4} alt="La Jamais Contente"/>
                         <p>
                             Camille Jenatzy (1868-1913) a bordo do La Jamais Contente, primeiro veículo terrestre a a ultrapassar a velocidade de 100 km/h.
                         </p>
-                        <img src="/src/Assets/HistoryCars/Lohner_Porsche_Retro_Classics_2020_IMG_0053.jpg" alt="Réplica do Lohner-Porsche"/>
+                        <img src={Image5} alt="Réplica do Lohner-Porsche"/>
                         <p>Réplica do Lohner-Porsche: primeiro 4x4, com freios na quatro rodas e híbrido.</p>
-                        <img src="/src/Assets/HistoryCars/Ford_Model_T_and_VW_type_11_Luxus,_Technisches_Museum_Wien,_Juni_2009.jpg" alt="Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás)"/>
+                        <img src={Image6} alt="Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás)"/>
                         <p>
                             Ford Modelo T (1908, na frente) e Volkswagen Fusca (1938, atrás) dois modelos de carros dentre os mais produzidos em massa na história.
                         </p>

@@ -2,8 +2,15 @@ import { Link } from 'react-router-dom'
 import { Footer } from '../../Components/Footer/Footer'
 import { Header } from '../../Components/Header/Hedaer'
 import style from './PageOne.module.css'
-import ImageOne from '/src/Assets/carro1.jpg'
-
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+import Image1 from '/src/Assets/carro1.jpg';
+import Image2 from '/src/Assets/motor.jpg';
+import Image3 from '/src/Assets/Toyota-Corolla-2001-EUA-03.jpg';
+import Image4 from '/src/Assets/carroceria.jpg';
+import Image5 from '/src/Assets/luzes-do-painel.jpg';
+import Image6 from '/src/Assets/pneu.jpg';
+import Image7 from '/src/Assets/chiron.jpg';
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
 export function PageOne() {
     return(
         <>
@@ -15,7 +22,7 @@ export function PageOne() {
                     <Link to="/HistoriaDoAutomovel">
                         <h2>História do automóvel</h2>
                         <div className={style.textAndImage}>
-                            <img src={ImageOne} alt="Foto de um Benz Patent-Motorwagen"/>
+                            <img src={Image1} alt="Foto de um Benz Patent-Motorwagen"/>
                             <p>
                                 A história do automóvel tem início por volta de 1769, com a criação do motor a 
                                 vapor de automóveis capazes de transportar humanos. Em 1807, os primeiros 
@@ -30,7 +37,7 @@ export function PageOne() {
                     <Link to="/TiposDeMotores">
                         <h2>Quais são os tipos de motores de um carro?</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/motor.jpg" alt="Foto de um motor"/>
+                            <img src={Image2} alt="Foto de um motor"/>
                             <p>
                             Ao longo do tempo, os carros já foram equipados com vários tipos diferentes de motor. 
                             Você sabia, por exemplo, que eles já receberam motores a jato, como nos aviões? Acontece que, 
@@ -45,7 +52,7 @@ export function PageOne() {
                     <Link to="/CarrosMaisVendidos">
                         <h2>5 carros mais vendidos no mundo em toda a história</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/Toyota-Corolla-2001-EUA-03.jpg" alt="Foto de um Corolla"/>
+                            <img src={Image3} alt="Foto de um Corolla"/>
                             <p>
                                 O carro mais comercializado no mundo ao longos dos anos é o Toyota Corolla. Ao todo 
                                 foram vendidas mais de 40 milhões de unidades. Clique e confira a lista completa de 
@@ -58,7 +65,7 @@ export function PageOne() {
                     <Link to="/TiposDeCarroceria">
                         <h2>Tipos de carroceria</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/carroceria.jpg" alt="Foto de Tipos de carroceria"/>
+                            <img src={Image4} alt="Foto de Tipos de carroceria"/>
                             <p>
                                 A indústria automotiva oferece aos seus consumidores uma variedade de carros para escolher, 
                                 cada um com diferentes características para se adequar ao estilo de vida e necessidades de 
@@ -73,7 +80,7 @@ export function PageOne() {
                     <Link to="/LuzesDoPaniel">
                         <h2>luzes do painel</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/luzes-do-painel.jpg" alt="Foto de um painel de carro"/>
+                            <img src={Image5} alt="Foto de um painel de carro"/>
                             <p>
                                 Assim como os barulhos, os símbolos luminosos no painel do veículo são o principal meio 
                                 de comunicação entre o automóvel e quem o conduz. Pois é, seu carro não é o Relâmpago 
@@ -86,7 +93,7 @@ export function PageOne() {
                     <Link to="/Pneus">
                         <h2>Tipos de pneus: conheça cada um deles</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/pneu.jpg" alt="Foto de pneus"/>
+                            <img src={Image6} alt="Foto de pneus"/>
                             <p>
                                 Os pneus são partes fundamentais de todo e qualquer veículo, pois eles oferecem 
                                 estabilidade, segurança, conforto e economia. No entanto, ainda que todos possuam esses 
@@ -100,7 +107,7 @@ export function PageOne() {
                     <Link to="/OsCarrosMaisRapidosDaHistoria">
                         <h2>Voando baixo: os carros mais rápidos ao longo da História</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/chiron.jpg" alt="Foto da Bugatti Chiron"/>
+                            <img src={Image7} alt="Foto da Bugatti Chiron"/>
                             <p>
                                 A velocidade é algo que contagia e apaixona uma multidão de pessoas ao redor do 
                                 mundo. Aqueles que levam isso mais a sério se tornam pilotos de corridas e 

@@ -1,6 +1,13 @@
 import { Footer } from '../../Components/Footer/Footer';
 import { Header } from '../../Components/Header/Hedaer';
 import style from './FiveCars.module.css';
+/*////////////////////////////////////////////////////////////////////////////////////////////////////// */
+import Image1 from "/src/Assets/FiveCars/Ford_Escort.jpg";
+import Image2 from "/src/Assets/FiveCars/fusca.jpg";
+import Image3 from "/src/Assets/FiveCars/golf.jpg";
+import Image4 from "/src/Assets/FiveCars/f150.jpg";
+import Image5 from "/src/Assets/FiveCars/toyota.jpg";
+/*////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 export function FiveCars() {
     return(
@@ -26,7 +33,7 @@ export function FiveCars() {
                     <p>Veja abaixo a lista dos carros mais vendidos de todos os tempos.</p>
 
                     <h2>5º Lugar: Ford Escort</h2>
-                    <img src="/src/Assets/FiveCars/Ford_Escort.jpg" alt="Ford Escort"/>
+                    <img src={Image1} alt="Ford Escort"/>
                     <p>
                         Por fim, a nossa lista dos carros mais vendidos no mundo encerra-se com mais um veículo da Ford. O Escort, que foi anunciado como o “pequeno grande carro”, tinha como objetivo substituir o Anglia, modelo que estava de saída do portfólio da montadora americana. O sucesso rendeu mais de 20 milhões de unidades vendidas pelo mundo inteiro.
                         <br /><br />
@@ -35,7 +42,7 @@ export function FiveCars() {
                         Lançado no Brasil em 1983, possuía um motor 1.3, com 63,5 cv quando movido a álcool e 57 cv a gasolina, e 1.6 com potências respectivas de 73 e 65 cavalos. Foram emplacadas, em território nacional, mais de 611 mil unidades e, assim, o carro ocupa a 16ª posição entre os mais vendidos aqui.
                     </p>
                     <h2>4º Lugar: Volkswagen Fusca</h2>
-                    <img src="/src/Assets/FiveCars/fusca.jpg" alt="Volkswagen Fusca"/>
+                    <img src={Image2} alt="Volkswagen Fusca"/>
                     <p>
                         Novamente um alemão ocupando a lista dos carros mais vendidos no mundo. Mas, no Brasil, esse veículo é mais conhecido até mesmo que muitas celebridades. O Fusca fez história, e não foi pouca. É difícil encontrar uma família brasileira que em alguma época não teve um modelo desses na garagem. Com tantos anos após o seu lançamento, já foram vendidas 24 milhões de unidades no mundo.
                         <br /><br />
@@ -46,7 +53,7 @@ export function FiveCars() {
                         Em 1953 o Fusca passou a ser montado no Brasil. Mas, apenas seis anos depois, em 1959, foi quando as primeiras versões do veículo foram fabricados com peças nacionais para ir ao mercado nacional e internacional. O motor era um 1.131cc e tinha 26 cv. Contudo, é importante lembrar que o Fusca foi o automóvel que popularizou a montadora Volkswagen no mundo e, principalmente, no Brasil. Ao todo, foram três milhões de unidades emplacadas no país, suficiente para colocá-lo em terceiro no ranking dos mais vendidos nacionalmente.
                     </p>
                     <h2>3° Lugar: Volkswagen Golf</h2>
-                    <img src="/src/Assets/FiveCars/golf.jpg" alt="Volkswagen Golf"/>
+                    <img src={Image3} alt="Volkswagen Golf"/>
                     <p>
                         Enfim um veículo alemão na lista dos carros mais vendidos no mundo. O Golf, da montadora Volkswagen, foi lançado com o intuito de substituir o Fusca, carro que foi o seu antecessor e líder de vendas global por diversos anos. Atualmente, já foram vendidas mais de 27 milhões de unidades do Golf.
                         <br /><br />
@@ -55,7 +62,7 @@ export function FiveCars() {
                         Com a redução dos impostos decretada em 1994, diversas montadoras decidiram trazer mais modelos para o mercado brasileiro. O Golf foi um desses, quando ainda era diretamente importado da Alemanha e do México. No entanto, a primeira versão que apareceu no Brasil já era a terceira ao redor do mundo. Em território nacional, é um veículo que possui muitos admiradores e, até hoje, é o sonho de consumo de muitos brasileiros. A quantidade de vendas totais no país não é declarada.
                     </p>
                     <h2>2º Lugar: Ford F-150</h2>
-                    <img src="/src/Assets/FiveCars/f150.jpg" alt="Ford F-150"/>
+                    <img src={Image4} alt="Ford F-150"/>
                     <p>
                         A segunda posição do ranking é ocupada por um veículo pertencente a uma categoria bem específica no mercado automotivo: caminhonetes. A F-150 ainda é, atualmente, o automóvel mais vendido em alguns países, principalmente nos Estados Unidos. Ao todo, foram emplacados mais de 35 milhões de exemplares.
                         <br /><br />
@@ -64,7 +71,7 @@ export function FiveCars() {
                         Contudo, mesmo com o modelo sendo um sucesso em muitos países ao redor do mundo, o Brasil nunca recebeu importação ou fabricação oficial do automóvel. Portanto, para adquirir uma unidade deste veículo, é necessário fazer uma encomenda independente.
                     </p>
                     <h2>1º lugar – Toyota Corolla</h2>
-                    <img src="/src/Assets/FiveCars/toyota.jpg" alt="Toyota Corolla"/>
+                    <img src={Image5} alt="Toyota Corolla"/>
                     <p>
                         A nossa lista dos carros mais vendidos no mundo inicia-se pelo Toyota Corolla. O veículo japonês possui o título de modelo mais vendido ao redor do globo de todos os tempos. Ao todo, teve mais de 40 milhões de unidades comercializadas.
                         <br /><br />

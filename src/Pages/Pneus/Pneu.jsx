@@ -2,6 +2,14 @@ import { Footer } from '../../Components/Footer/Footer'
 import { Header } from '../../Components/Header/Hedaer'
 import style from './Pneu.module.css'
 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+import Image1 from "/src/Assets/PneuImage/dadosPneu.jpg";
+import Image2 from "/src/Assets/PneuImage/OffRoad.jpg";
+import Image3 from "/src/Assets/PneuImage/homemPneu.jpg";
+import Image4 from "/src/Assets/PneuImage/verificar-pneu-bom.jpg";
+import Image5 from "/src/Assets/PneuImage/alinhamento pneu.jpg";
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 export function Pneu() {
     return(
         <>
@@ -38,7 +46,7 @@ export function Pneu() {
                         várias funções.
                     </p>
 
-                    <img src="/src/Assets/PneuImage/dadosPneu.jpg" alt="Dados do pneu" />
+                    <img src={Image1} alt="Dados do pneu" />
 
                     <p>
                         Os dois primeiros pontos dependem integralmente do fato do pneu ser elástico e estar cheio de ar 
@@ -71,7 +79,7 @@ export function Pneu() {
                         <br /><br />
                         Por fim, esse tipo de pneu possui uma banda de rodagem mais espaçada, carcaça reforçada e sulcos mais largos.
                     </p>
-                    <img src="/src/Assets/PneuImage/OffRoad.jpg" alt="Carro de offRoad" />
+                    <img src={Image2} alt="Carro de offRoad" />
 
                     <h3>Pneu misto</h3>
 
@@ -100,7 +108,7 @@ export function Pneu() {
                         <br /><br />
                         Caso a SUV sirva somente para passeios, é permitido usar pneus convencionais. Mas se o veículo puxar uma carreta, trailer, ou carregar muita carga com frequência, é melhor gastar um pouco mais com o pneu LT.
                     </p>
-                    <img src="/src/Assets/PneuImage/homemPneu.jpg" alt="Homem com mão no pneu" />
+                    <img src={Image3} alt="Homem com mão no pneu" />
                     <h2>Manutenção dos pneus</h2>
                     <p>
                         Vale enfatizar que pneus gastos e não adequados ao terreno e ao veículo põem em risco as vidas do motorista e dos passageiros. Não basta comprar o item apenas pela aparência ou pela marca. É preciso trocar os pneus sempre que houver desgaste em excesso. 
@@ -131,7 +139,7 @@ export function Pneu() {
                         <br /><br />
                         Por fim, é preciso ficar atento aos sinais “físicos” que o veículo emite quando chega a hora da troca.
                     </p>
-                    <img src="/src/Assets/PneuImage/verificar-pneu-bom.jpg" alt="Vereficando pneu" />
+                    <img src={Image4} alt="Vereficando pneu" />
                     <h2>Dicas para cuidar dos pneus</h2>
                     <p>
                         O rodízio de pneus é importantíssimo, pois previne, por exemplo, o desgaste irregular. Ao não fazê-lo, aumenta-se o consumo, o barulho, o perigo de derrapagem e, portanto, reduz o conforto na cabine de passageiros.
@@ -152,7 +160,7 @@ export function Pneu() {
                         <br /><br />
                         Independentemente da marca, os pneus perdem ar com o passar do tempo. Por isso, verifique e calibre o pneu ao menos uma vez por mês. Agora, se você roda frequentemente, é indicado fazer esse processo toda semana.
                     </p>
-                    <img src="/src/Assets/PneuImage/alinhamento pneu.jpg" alt="" />
+                    <img src={Image5} alt="" />
                     <h2>Alinhamento e balanceamento</h2>
                     <p>
                         Guarde seu investimento para cuidar bem dos pneus novos. Para isso, é fundamental realizar o alinhamento deles, sujeitos a desequilíbrio ao rodar em ruas irregulares, passar sobre buracos e vez ou outra baterem levemente nas guias da calçada. 

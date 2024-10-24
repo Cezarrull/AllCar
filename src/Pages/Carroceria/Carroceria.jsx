@@ -1,6 +1,7 @@
 import { Footer } from '../../Components/Footer/Footer';
 import { Header } from '../../Components/Header/Hedaer';
 import style from './Carroceria.module.css';
+import Image1 from "/src/Assets/Carroceria/tipos-de-carroceria-01.jpg";
 
 export function Carroceria() {
     return(
@@ -55,7 +56,7 @@ export function Carroceria() {
                         </p>
                     </div>
                     <div className={style.carroceriaImage}>
-                        <img src="/src/Assets/Carroceria/tipos-de-carroceria-01.jpg" alt="Tipos de carroceria"/>
+                        <img src={Image1} alt="Tipos de carroceria"/>
                         <p>
                             Diagrama de plataforma da primeira geração do Ford Focus em variantes hatchback (no topo), sedã (no meio) e station wagon ou perua (em baixo).
                         </p>
