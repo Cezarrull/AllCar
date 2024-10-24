@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Footer } from '../../Components/Footer/Footer'
 import { Header } from '../../Components/Header/Hedaer'
 import style from './PageOne.module.css'
+import ImageOne from '/src/Assets/carro1.jpg'
 
 export function PageOne() {
     return(
@@ -14,7 +15,7 @@ export function PageOne() {
                     <Link to="/HistoriaDoAutomovel">
                         <h2>História do automóvel</h2>
                         <div className={style.textAndImage}>
-                            <img src="/src/Assets/carro1.jpg" alt="Foto de um Benz Patent-Motorwagen"/>
+                            <img src={ImageOne} alt="Foto de um Benz Patent-Motorwagen"/>
                             <p>
                                 A história do automóvel tem início por volta de 1769, com a criação do motor a 
                                 vapor de automóveis capazes de transportar humanos. Em 1807, os primeiros 
