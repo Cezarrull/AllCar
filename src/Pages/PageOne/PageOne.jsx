@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Footer } from '../../Components/Footer/Footer'
 import { Header } from '../../Components/Header/Hedaer'
 import style from './PageOne.module.css'
@@ -10,7 +11,7 @@ export function PageOne() {
                 <h1>Conheça mais sobre carros</h1>
                 <p>início</p>
                 <div className={style.content}>
-                    <a href="/HistoriaDoAutomovel">
+                    <Link to="/HistoriaDoAutomovel">
                         <h2>História do automóvel</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/carro1.jpg" alt="Foto de um Benz Patent-Motorwagen"/>
@@ -23,9 +24,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/TiposDeMotores">
+                    <Link to="/TiposDeMotores">
                         <h2>Quais são os tipos de motores de um carro?</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/motor.jpg" alt="Foto de um motor"/>
@@ -38,9 +39,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/CarrosMaisVendidos">
+                    <Link to="/CarrosMaisVendidos">
                         <h2>5 carros mais vendidos no mundo em toda a história</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/Toyota-Corolla-2001-EUA-03.jpg" alt="Foto de um Corolla"/>
@@ -51,9 +52,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/TiposDeCarroceria">
+                    <Link to="/TiposDeCarroceria">
                         <h2>Tipos de carroceria</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/carroceria.jpg" alt="Foto de Tipos de carroceria"/>
@@ -66,9 +67,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/LuzesDoPaniel">
+                    <Link to="/LuzesDoPaniel">
                         <h2>luzes do painel</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/luzes-do-painel.jpg" alt="Foto de um painel de carro"/>
@@ -79,9 +80,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/Pneus">
+                    <Link to="/Pneus">
                         <h2>Tipos de pneus: conheça cada um deles</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/pneu.jpg" alt="Foto de pneus"/>
@@ -93,9 +94,9 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/OsCarrosMaisRapidosDaHistoria">
+                    <Link to="/OsCarrosMaisRapidosDaHistoria">
                         <h2>Voando baixo: os carros mais rápidos ao longo da História</h2>
                         <div className={style.textAndImage}>
                             <img src="../../../Assets/chiron.jpg" alt="Foto da Bugatti Chiron"/>
@@ -107,7 +108,7 @@ export function PageOne() {
                             </p>
                             <button>Saiba mais</button>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <Footer />

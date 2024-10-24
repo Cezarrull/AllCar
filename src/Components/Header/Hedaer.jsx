@@ -1,4 +1,5 @@
 import style from './Header.module.css'
+import { Link } from 'react-router-dom';
 
 export function Header() {
     return(
@@ -6,13 +7,13 @@ export function Header() {
             <a href="#" className={style.nameTheme}>AllCar</a>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/Contato">Contato</a>
+                    <Link to="/Contato">Contato</Link>
                 </li>
                 <li>
-                    <a href="/sobre">Sobre</a>
+                    <Link to="/Sobre">Sobre</Link>
                 </li>
             </ul>
         </div>

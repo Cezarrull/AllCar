@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Footer } from "../../Components/Footer/Footer";
 import { Header } from "../../Components/Header/Hedaer";
 import style from './About.module.css';
@@ -28,9 +29,9 @@ export function About() {
                     significativa para você, sua contribuição nos ajudará a melhorar e manter nosso trabalho de
                     qualidade.
                 </p>
-                <a href="/AjudeaAllCar">
+                <Link to="/AjudeaAllCar">
                     <button>Saiba mais</button>
-                </a>
+                </Link>
             </div>
         </div>
         <Footer />
