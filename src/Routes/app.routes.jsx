@@ -10,11 +10,13 @@ import { Pneu } from '../Pages/Pneus/Pneu';
 import { FlashCars } from '../Pages/FlashCars/FlashCars';
 import { About } from '../Pages/About/About';
 import { Contact } from '../Pages/Contact/Contact';
+import { Dicas } from '../Pages/9dicas/Dicas';
 
 export function AppRoutes() {
     return(
         <Routes>
             <Route path="/" element={<PageOne />} />
+            <Route path="/Home" element={<PageOne />} />
             <Route path="/Pneus" element={<Pneu />} />
             <Route path='/LuzesDoPaniel' element={<Luzes />} />
             <Route path='/TiposDeCarroceria' element={<Carroceria />} />
@@ -24,6 +26,7 @@ export function AppRoutes() {
             <Route path='/OsCarrosMaisRapidosDaHistoria' element={<FlashCars />} />
             <Route path='/sobre' element={<About />} />
             <Route path='/Contato' element={<Contact />} />
+            <Route path='/DicasDeCuidado' element={<Dicas />} />
         </Routes>
     )
 }

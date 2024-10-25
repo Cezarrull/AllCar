@@ -10,6 +10,7 @@ import Image4 from '/src/Assets/carroceria.jpg';
 import Image5 from '/src/Assets/luzes-do-painel.jpg';
 import Image6 from '/src/Assets/pneu.jpg';
 import Image7 from '/src/Assets/chiron.jpg';
+import Image8 from '/src/Assets/Vitrificacao.jpg';
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
 export function PageOne() {
     return(
@@ -113,6 +114,17 @@ export function PageOne() {
                                 mundo. Aqueles que levam isso mais a sério se tornam pilotos de corridas e 
                                 outros, ainda mais aficionados na adrenalina causada por tal fenômeno, vão além e 
                                 buscam quebrar recordes.  
+                            </p>
+                            <button>Saiba mais</button>
+                        </div>
+                    </Link>
+
+                    <Link to="/DicasDeCuidado">
+                        <h2>9 dicas de conservação de automóveis: valorize o seu carro!</h2>
+                        <div className={style.textAndImage}>
+                            <img src={Image8} alt="Foto vitrificação automotiva"/>
+                            <p>
+                                Você sabia que alguns cuidados com a conservação de automóveis podem fazer com que eles valorizem muito? De fato, medidas preventivas contribuem bastante para que seu carro conserve aquele aspecto de novo por muito tempo e, dessa forma, se mantenha valorizado no mercado.
                             </p>
                             <button>Saiba mais</button>
                         </div>

@@ -1,16 +1,82 @@
 .footerBody {
-    padding: 2px;
-    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    height: 100%;
     background: var(--gray);
+}
+
+.footerContent {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.footerContent p {
+    font-family: 'Noto Serif Oriya', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 2.5rem;
 }
 
 .footerBody h1 {
-    font-family: 'Poppins', sans-serif;
     color: var(--black);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.topics {
     text-align: center;
+    padding-top: 30px;
+}
+
+.topics ul {
+    border-bottom: 1px solid var(--grayThree);
+    padding: 0 20px;
+}
+
+.topics ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.topics ul li a {
+    text-decoration: none;
+    color: var(--bgOne);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.topics ul li a:hover {
+    color: var(--grayTwo);
+}
+
+.infosFooter {
+    padding-top: 15px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infosFooter a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--grayFour);
+    font-weight: 500;
+}
+
+.infosFooter a:hover {
+    color: var(--grayTwo);
+}
+
+@media (min-width: 700px) {
+    .topics {
+        padding-top: 0;
+    }
+
+    .topics ul {
+        padding-bottom: 30px;
+    }
 }
